@@ -1,0 +1,17 @@
+{
+  "name": "rate-limiter-vanilla",
+  "version": "1.0.0",
+  "description": "Rate limiter implementation without external libraries",
+  "license": "ISC",
+  "author": "Ramsés",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
